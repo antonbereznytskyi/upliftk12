@@ -1,0 +1,108 @@
+@tailwind base;
+
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'logo';
+    src: url('../fonts/biennale/Fontspring-DEMO-biennale-black.otf');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/roboto/Roboto-Bold.ttf');
+}
+
+.slick-active .dot {
+    background-color: rgb(22 163 74 / var(--tw-bg-opacity));
+}
+@media (max-width: 767.99px) {
+    .slick-dots li {
+        width: 10px !important;
+        margin: 0 2px !important;
+    }
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 100vh;
+}
+::-webkit-scrollbar-track {
+    border-radius: 100vh;
+}
+
+.react-autosuggest__suggestions-container {
+    display: none;
+}
+
+.react-autosuggest__suggestions-container--open {
+    --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1),
+        0 4px 6px -4px rgb(0 0 0 / 0.1);
+    --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color),
+        0 4px 6px -4px var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+        var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+    display: block;
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    border: 1px solid #aaa;
+    background-color: #fff;
+    font-family: Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    border-radius: 4px;
+    z-index: 2;
+    max-height: 150px;
+    overflow-y: auto;
+}
+.react-autosuggest__suggestions-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.react-autosuggest__suggestion {
+    border-bottom: 1px solid rgb(193 193 193);
+    cursor: pointer;
+    padding: 5px;
+    .p {
+        padding: 1px !important;
+    }
+}
+
+.react-autosuggest__suggestion--highlighted {
+    background-color: #ddd;
+}
+
+.infinite-scroll-component {
+    overflow: visible !important;
+}
+
+.gMliOo svg {
+    display: none !important;
+}
+.rdt_TableHead {
+    font-size: 17px !important;
+    font-weight: 600 !important;
+}
+.dwPlXY {
+    font-size: 15px !important;
+}
+.gKbhqU {
+    font-size: 15px !important;
+}
+.jaZsat {
+    padding-right: 40px !important;
+}
+.kjDDTx {
+    justify-content: center;
+}
+
+.nextui-table-select-all-checkbox .nextui-c-ipcjYY{
+    display: none;
+}
+
+.nextui-c-bDGMeb-iefzdUn-css{
+    margin-top: var(--nextui-space-1);
+    display: none !important;
+}
+
